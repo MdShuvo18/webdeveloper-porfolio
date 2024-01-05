@@ -1,0 +1,56 @@
+/* common share style */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* nav related styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-color {
+    color: #FD6E0A;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.button-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 18px 35px 19px 36px;
+}
+
+.nav-title {
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    margin-right: 50px;
+    list-style: none;
+   
+}
+nav a {
+    text-decoration: none;
+}
