@@ -102,6 +102,12 @@ nav a {
 }
 
 /* main section added */
+
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+
 /* about section added */
 
 .about {
@@ -131,3 +137,22 @@ nav a {
     line-height: 30px;
     /* 166.667% */
 }
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-description {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
